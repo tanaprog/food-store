@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="main__header main-header">
+            <div class="main__header__logo logo"><img src="./img/logo.svg" alt="logo">
+            </div>
+
+            <nav class="main__header__menu header-menu">
+                <a class="menu-link-fire" href="#">STOCK<img class="fire" src="./img/fire.svg" alt="fire"></a>
+
+                <select class="hot-dishes hot-cold" name="dishesHot">
+                    <option value="dishes">HOT</option>
+                    <option value="dishes">hot</option>
+                    <option value="dishes">hot</option>
+                </select>
+                <select class="cold-dishes hot-cold" name="dihesCold">
+                    <option value="dishes">COLD</option>
+                    <option value="dishes">hot</option>
+                    <option value="dishes">hot</option>
+                </select>
+
+                <a class="menu-link" href="#">FRESH BAKERY</a>
+                <a class="menu-link" href="#">DESSERT</a>
+                <a class="menu-link" href="#">BEVERAGES</a>
+            </nav>
+
+            <div class="main__header__icon header-icon">
+                <a class="search-icon" href="#"><img src="./img/search.svg" alt="search icon"></a>
+                <a class="people-icon" href="#"><img src="./img/people.svg" alt="peple icon"></a>
+                <a class="cart-icon" href="file:///C:/Users/airbo/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Projects%20with%20JS/food-store/src/cart.html"><img src="./img/cart.svg" alt="cart icon"></a>
+            </div>
+        </div>
+
+
+        <div class="main__order-food order-food">
+
+            <div class="order-food__wrapper">
+                <p class="p-order">Delivery of ready-made food from farm products!</p>
+                <img src="./img/pixels.svg" alt="pixels">
+                <p class="phone">+7 (499) 841-67-29</p>
+                <p class="e-mail">delivery@midas.rest</p>
+            </div>
+
+            <div class="order-food_photo">
+                <img src="./img/fish.png" alt="fish">
+            </div>
+
+        </div>
+
+        <div class="main__desert desert">
+            <div class="desert-photo">
+                <img src="./img/desert.png" alt="lunch">
+                <div class="wrap">
+                    <p class="desert-title title">Tiramisu</p>
+                    <span class="desert-gramm gramm">430 g</span>
+                    <div class="desert-price-cart price-cart">
+                        <p class="desert-price">10 $</p>
+                        <a class="desert-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__popular-dishes popular-dishes">
+            <div class="popular-dishes__title">
+                <p class="title-dishes">Popular <br> dishes</p>
+            </div>
+
+            <div class="wrapper-popular-dishes">
+
+                <div class="popular-dishes__hachapuri photos">
+                    <img src="./img/hachapuri.png" alt="khachapuri">
+                    <p class="hachapuri-title title">Khachapuri <br> in Adjarian style</p>
+                    <span class="hachapuri-gramm gramm">450 g</span>
+                    <p class="hachapuri-description description">Khachapuri “Boat” stuffed with melted suluguni cheese,
+                        eggs.</p>
+                    <div class="hachapuri-price-cart price-cart">
+                        <p class="hachapuri-price">7 $</p>
+                        <a class="hachapuri-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+
+                <div class="popular-dishes__khinkali photos">
+                    <img src="./img/khinkali.png" alt="khinkali">
+                    <p class="khinkali-title title">Traditional <br> Khinkali (6 pcs)</p>
+                    <span class="khinkali-gramm gramm">350 g</span>
+                    <p class="khinkali-description description">Spicy khinkali stuffed with aromatic lamb and spices.
+                    </p>
+                    <div class="khinkali-price-cart price-cart">
+                        <p class="khinkali-price">7.5 $</p>
+                        <a class="khinkali-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__fired-khinkali photos">
+                    <img src="./img/fire-khinkali.png" alt="fire-khinkali">
+                    <p class="fired-khinkali-title title">Fried <br> Khinkali (6pcs)</p>
+                    <span class="fire-khinkali-gramm gramm">350 g</span>
+                    <p class="fire-khinkali-description description">Spicy khinkali stuffed with aromatic lamb and
+                        spices.</p>
+                    <div class="fire-khinkali-price-cart price-cart">
+                        <p class="fire-khinkali-price">8 $</p>
+                        <a class="fire-khinkali-cart dishes-cart" href="#"><img src="./img/black-cart.png"
+                                alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__lunch photos">
+                    <img src="./img/lunch.png" alt="lunch">
+                    <p class="lunch-title title">Low calorie <br> lunch</p>
+                    <span class="lunch-gramm gramm">450 g</span>
+                    <p class="lunch-description description">Greek yogurt with berries, 3 traditional khinkali, Caesar
+                        salad.</p>
+                    <div class="lunch-price-cart price-cart">
+                        <p class="lunch-price">15 $</p>
+                        <a class="lunch-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__merge-khachapuri photos">
+                    <img src="./img/megrelian-khachapuri.png" alt="rhahapuri">
+                    <p class="merge-khachapuri-title title">Khachapuri in <br> Megrelian style</p>
+                    <span class="merge-khachapuri-gramm gramm">430 g</span>
+                    <p class="merge-khachapuri-description description">Incredibly aromatic flatbread with suluguni
+                        cheese inside and out.</p>
+                    <div class="merge-khachapuri-price-cart price-cart">
+                        <p class="merge-khachapuri-price">8 $</p>
+                        <a class="merge-khachapuri-cart dishes-cart" href="#"><img src="./img/black-cart.png"
+                                alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__cutlet photos">
+                    <img src="./img/cutlet.png" alt="rhahapuri">
+                    <p class="cutlet-title title">Country-style cutlet <br> with potatoes</p>
+                    <span class="cutlet-gramm gramm">350 g</span>
+                    <p class="cutlet-description description">The most tender minced meat from environmentally friendly
+                        farm.</p>
+                    <div class="cutlet-price-cart price-cart">
+                        <p class="cutlet-price">7 $</p>
+                        <a class="cutlet-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__soup photos">
+                    <img src="./img/soup.png" alt="rhahapuri">
+                    <p class="soup-title title">Country-style cutlet <br> with potatoes</p>
+                    <span class="soup-gramm gramm">380 g</span>
+                    <p class="soup-description description">The most tender minced meat from environmentally friendly
+                        farm.</p>
+                    <div class="soup-price-cart price-cart">
+                        <p class="soup-price">5 $</p>
+                        <a class="soup-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__cheburek photos">
+                    <img src="./img/cheburek.png" alt="rhahapuri">
+                    <p class="cheburek-title title">Khachapuri in <br> Megrelian style</p>
+                    <span class="cheburek-gramm gramm">350 g</span>
+                    <p class="cheburek-description description">Incredibly aromatic flatbread with suluguni cheese
+                        inside and out.</p>
+                    <div class="cheburek-price-cart price-cart">
+                        <p class="cheburek-price">5.5 $</p>
+                        <a class="cheburek-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__khachapuri-cheese photos">
+                    <img src="./img/khach-cheese.png" alt="rhahapuri">
+                    <p class="khachapuri-cheese-title title">Khachapuri <br> with cheese.</p>
+                    <span class="khachapuri-cheese-gramm gramm">430 g</span>
+                    <p class="khachapuri-cheese-description description">Incredibly aromatic flatbread with suluguni
+                        cheese inside and out.</p>
+                    <div class="khachapuri-cheese-price-cart price-cart">
+                        <p class="khachapuri-cheese-price">8 $</p>
+                        <a class="khachapuri-cheese-cart dishes-cart" href="#"><img src="./img/black-cart.png"
+                                alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__fish photos">
+                    <img src="./img/fish-lemon.png" alt="khinkali">
+                    <p class="fish-title title">Fish <br> with lemon.</p>
+                    <span class="fish-gramm gramm">350 g</span>
+                    <p class="fish-description description">Spicy khinkali stuffed with aromatic lamb and spices.</p>
+                    <div class="fish-price-cart price-cart">
+                        <p class="fish-price">7.5 $</p>
+                        <a class="fish-cart dishes-cart" href="#"><img src="./img/black-cart.png" alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__khachapuri-meat photos">
+                    <img src="./img/khach-meat.png" alt="lunch">
+                    <p class="khachapuri-meat-title title">Khachapuri <br> with meat.</p>
+                    <span class="khachapuri-meat-gramm gramm">450 g</span>
+                    <p class="khachapuri-meat-description description">Greek yogurt with berries, 3 traditional
+                        khinkali, Caesar salad.</p>
+                    <div class="khachapuri-meat-price-cart price-cart">
+                        <p class="khachapuri-meat-price">11 $</p>
+                        <a class="khachapuri-meat-cart dishes-cart" href="#"><img src="./img/black-cart.png"
+                                alt="cart"></a>
+                    </div>
+                </div>
+
+                <div class="popular-dishes__cheburek-mini photos">
+                    <img src="./img/mini-cheburek.png" alt="rhahapuri">
+                    <p class="cheburek-mini-title title">Cheburek in <br> Megrelian style</p>
+                    <span class="cheburek-mini-gramm gramm">350 g</span>
+                    <p class="cheburek-mini-description description">Incredibly aromatic flatbread with suluguni cheese
+                        inside and out.</p>
+                    <div class="cheburek-mini-price-cart price-cart">
+                        <p class="cheburek-mini-price">6.5 $</p>
+                        <a class="cheburek-mini-cart dishes-cart" href="#"><img src="./img/black-cart.png"
+                                alt="cart"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main__menu menu">
+            <p class="menu__title">Menu</p>
+
+            <div class="menu__wrapper-menu wrapper-menu">
+
+                <div class="stocks all-size">
+                    <p class="stock-persent">30 <img src="./img/persent.png" alt="persent"></p>
+                    <a class="stock-fire" href="#">STOCK<img class="fire" src="./img/fire.svg" alt="fire"></a>
+                    <p class="stock-persent">20 <img src="./img/persent.png" alt=""></p>
+                </div>
+
+                <div class="dishes all-size">
+                    <p><img class="hot-dishes-size" src="./img/menu-meat.png" alt="meat"></p>
+                    <a class="hot-dishes-title menu-title" href="#">
+                        <p>Hot <br> dishes</p>
+                    </a>
+                    <p><img class="hot-dishes-size" src="./img/menu-fish.png" alt="fish"></p>
+                </div>
+
+                <div class="dishes soup all-size">
+                    <p><img class="soup-size" src="./img/red-soup.png" alt="soup"></p>
+                    <a class="title-soup menu-title" href="#">
+                        <p>Soup</p>
+                    </a>
+                    <p><img class="soup-size" src="./img/yellow-soup.png" alt="soup"></p>
+                </div>
+
+                <div class="dishes khinkali-menu all-size">
+                    <p><img class="khinkali-size" src="./img/khihkali-white.png" alt="soup"></p>
+                    <a class="title-khinkali menu-title" href="#">
+                        <p>Khinkali</p>
+                    </a>
+                    <p><img class="khinkali-size" src="./img/khinkali-yellow.png" alt="soup"></p>
+                </div>
+
+                <div class="dishes snacks-menu all-size">
+                    <p><img class="snacks-size" src="./img/cold-snacks.png" alt="soup"></p>
+                    <a class="title-snacks menu-title" href="#">
+                        <p>Cold <br> snacks</p>
+                    </a>
+                    <p><img class="snacks-size" src="./img/cold-fish.png" alt="soup"></p>
+                </div>
+
+                <div class="dishes salats-menu all-size">
+                    <p><img class="salats-size" src="./img/salat-cherry.png" alt="soup"></p>
+                    <a class="title-salats menu-title" href="#">
+                        <p>Salats</p>
+                    </a>
+                    <p><img class="salats-size" src="./img/salat-green.png" alt="soup"></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main__footer footer">
+
+            <div class="footer__wrapper footer-wrapper">
+                <div class="footer__logo-nav logo-nav">
+                    <div class="foter-logo"><img src="./img/logo.svg" alt="logo">
+                    </div>
+
+                    <nav class="footer-navbar">
+                        <a class="feedback foter-link" href="#">Feedback</a>
+                        <a class="delivery foter-link" href="#">Delivery</a>
+                        <a class="payment foter-link" href="#">Payment</a>
+                        <a class="contacts foter-link" href="#">Contacts</a>
+                    </nav>
+                </div>
+
+                <div class="footer__phone-email phone-email">
+                    <p class="footer-phone">+7 (499) 841-67-29</p>
+                    <p class="footer-email">delivery@midas.rest</p>
+                </div>
+
+            </div>
+
+            <div class="footer__line footer-line"></div>
+
+            <div class="footer__under-line under-line">
+
+                <div class="off-site">© 2009–2019, «MIDAS», official website</div>
+
+                <div class="privacy-policy">
+                    <p>Terms of use</p>
+                    <p>Privacy policy and offerta</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>

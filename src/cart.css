@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    width: 1600px;
+    height: 1826px;
+    /* background: linear-gradient(107deg, rgba(9, 35, 78, 1) 8%, rgba(15, 15, 17, 1) 45%); */
+    background-color: #0f0f11;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+}
+
+.main-header {
+    width: 1500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+
+}
+
+.menu-link-fire {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+}
+
+.hot-cold {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.header-icon {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.cart-title {
+    margin: 100px 50px;
+}
+
+.title-cart {
+    color: white;
+    font-size: 80px;
+}
+
+.wrapper-prodact {
+    
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.prodact-description:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+}
