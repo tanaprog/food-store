@@ -73,7 +73,6 @@ body {
 }
 
 .wrapper-prodact {
-    
     background-color: black;
     color: white;
     margin-left: 50px;
@@ -85,4 +84,12 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 150px;
+}
+
+.delete{
+    background-color: transparent;
+    color: #B70000;
+    border: 1px solid #B70000;
+    padding: 10px;
+    cursor: pointer;
 }

@@ -262,14 +262,12 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 100px;
-    /* margin-bottom: 20px; */
 }
 
 .phone-email {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    /* align-items: center; */
     gap: 30px;
     color: white;
 }
